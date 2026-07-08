@@ -21,6 +21,17 @@ Google OAuth (social) + email/password, database sessions via the Prisma adapter
 **Not for:** Auth.js / next-auth, MongoDB, or direct-driver MySQL — use the `better-auth-best-practices`
 skill directly instead.
 
+## Sample prompt
+
+Once installed, ask Claude Code something like:
+
+> Set up auth for my Next.js 16 app: Better Auth with Google OAuth + email/password, backed by
+> MySQL via Prisma 7. Scaffold the server/client config, route handler, Prisma schema, and the
+> sign-in / sign-up / dashboard pages.
+
+The skill activates from the Next.js 16 + Prisma 7 + MySQL + Better Auth combination; you don't
+need to name it explicitly. Provide `DATABASE_URL` and your Google OAuth credentials when prompted.
+
 ## Install
 
 This skill has **two required companion skills**. Install all three:
