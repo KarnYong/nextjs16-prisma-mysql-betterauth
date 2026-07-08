@@ -73,18 +73,13 @@ nextjs16-prisma-mysql-betterauth/
 ├── SKILL.md              # the skill — frontmatter, ordered steps, gotchas
 ├── references/
 │   └── templates.md      # verified file templates (copy into a fresh app)
-├── TESTING.md            # how the skill was clean-room validated
 └── README.md             # this file
 ```
 
-## Testing
+## Validation
 
-See [`TESTING.md`](./TESTING.md) for the validation methodology, including a clean-room scaffold
-test (the headline check: following the skill from scratch in a fresh project yields a working app)
-and acceptance checks for the auth endpoints.
-
-> Note: `TESTING.md` records the validation as it was run in the source project, so some paths
-> (`D:\tutorial\…`) and DB credentials are illustrative of that environment — adapt them to yours.
+Validated via a clean-room scaffold — following the skill from scratch in a fresh project yields a
+working app. The acceptance checks that were run are preserved in the git history.
 
 ## License
 
