@@ -1,5 +1,5 @@
 ---
-name: nextjs16-prisma-mysql-betterauth
+name: nextjs16-prisma7-mysql-betterauth1
 description: Scaffold a complete Next.js 16 + Prisma 7 + MySQL/MariaDB + Better Auth (Google OAuth + email/password) stack. Use when adding Better Auth authentication to a Next.js 16 app using Prisma 7 and MySQL/MariaDB. This is the INTEGRATION layer — it orchestrates the `better-auth-best-practices` and `create-auth-skill` skills and captures the gotchas that bite when combining them on Next.js 16.
 ---
 

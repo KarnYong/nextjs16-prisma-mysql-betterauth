@@ -1,4 +1,4 @@
-# nextjs16-prisma-mysql-betterauth
+# nextjs16-prisma7-mysql-betterauth1
 
 A **thin integration skill** that scaffolds a complete **Next.js 16 + Prisma 7 + MySQL/MariaDB +
 Better Auth** stack — Google OAuth + email/password — and captures the gotchas that bite when you
@@ -27,7 +27,7 @@ This skill has **two required companion skills**. Install all three:
 
 ```bash
 # 1. This skill (the integration layer)
-npx skills@latest add <your-github-user>/nextjs16-prisma-mysql-betterauth
+npx skills@latest add KarnYong/nextjs16-prisma7-mysql-betterauth1
 
 # 2. Required companions — provide the Better Auth depth this skill delegates to
 npx skills@latest add better-auth/skills
@@ -69,7 +69,7 @@ e.g.:
 ## Repo layout
 
 ```
-nextjs16-prisma-mysql-betterauth/
+nextjs16-prisma7-mysql-betterauth1/
 ├── SKILL.md              # the skill — frontmatter, ordered steps, gotchas
 ├── references/
 │   └── templates.md      # verified file templates (copy into a fresh app)
